@@ -1,0 +1,5 @@
+<p>Colleted Pokemon</p>
+<div class="container">
+<ng-container *ngFor="let collectedPokemon of collectedPokemons">
+    <button (click)="selectColletedPokemon(collectedPokemon)">{{collectedPokemon}}</button>
+</ng-container></div>

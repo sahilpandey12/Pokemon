@@ -1,0 +1,47 @@
+<div class="pokemon-container">
+  <app-all-pokemon>
+    <div *ngFor="let pokemon of pokemons">
+      <button (click)="selectPokemon(pokemon)">{{pokemon}}</button>
+    </div>
+  </app-all-pokemon>
+  <app-colleted-pokemon [collectedPokemon]="collectedPokemons" (select)="selectedCollectedPokemon($event)">
+  </app-colleted-pokemon>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="flex">
+  <div class="sub-container-1">
+    <app-all-pokemon [pokemons] = "pokemons"></app-all-pokemon>
+    [pokemonsList]="pokemons" (display)="displayPokemon($event)"
+  </div>
+  <div class="sub-container-2">
+    <app-colleted-pokemon [pokemons] = "pokemons"></app-colleted-pokemon>
+  </div>
+
+</div> -->

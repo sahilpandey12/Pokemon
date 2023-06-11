@@ -1,0 +1,26 @@
+.pokemon-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  app-all-pokemon {
+    flex: 1;
+    background-color: #D989B5;
+    color: white;
+    padding: 3rem 0 0 5rem;
+  }
+  button {
+    border: none;
+    border-radius: 12px;
+    color: #adefd1ff;
+    background-color: #863A6F;
+    font-family: cursive;
+    font-size: larger;
+    cursor: pointer;
+    width:120px;
+  }
+  app-colleted-pokemon {
+    flex: 1;
+    background-color: #FFADBC;
+    color: #00203fff;
+    padding: 3rem 0 0 5rem;
+  }
